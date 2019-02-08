@@ -91,8 +91,6 @@ def parallelize_dataframe(df, func, num_cpu=NUM_CPU):
     Takes an input dataframe, a function to apply and
     number of CPUs as arguments.
 
-    Source:
-
     """
 
     df_split = np.array_split(df, num_cpu)
