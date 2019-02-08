@@ -8,7 +8,7 @@ The data used was from the [Kaggle Quora Competition](https://www.kaggle.com/c/q
 
 TensorboardX is one of the most useful tools for visualising scalars / data during training, and when using an optimiser this becomes crucial to monitor the best performing candidate parameters for a network. For the sake of simplicity I have only optimised over a few parameters here, however it is easy to see the potential in using an optimizer such as hyperopt to tune your network.
 
-To test the optimiser, first download the data off Kaggle into the input folder in this repository. Then run the python script preprocess.py, and main.py. 
+To test the optimiser, first download the data off Kaggle into the input folder in this repository. Then run the python script preprocess.py, and main.py in the lstm_optim folder.
 
 NOTE: the download requires 6GB of space mostly due to the large embedding files, however to run this optimiser you will only need the glove embeddings and can avoid downloading the others. 
 
